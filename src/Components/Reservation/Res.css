@@ -1,0 +1,70 @@
+.Resdiv{
+    background-image: url(./Resimg/11.jpg);
+    width: auto;
+    height: 1486.72px;
+    /* background-size: cover;
+    background-position: center top; */
+    background-repeat: no-repeat;
+     background-position: 50% 0%;
+      background-size: cover;
+       transform: translate3d(0px, 0px, 0px);
+       margin-top: -82px;
+       
+
+}
+.Res1div{
+    padding-top: 50%;
+}
+.div1h6{
+    margin-right: 900px;
+    margin-top: -455px;
+}
+.div1h1{
+    margin-right: 700px;
+}
+.Res3{
+    background-image: url(./Resimg/2-1.jpg);
+    width: auto;
+    height: 500px;
+
+
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+
+    /* margin-top: -294px; */
+    margin-bottom: 0;
+
+
+}
+.Res3div{
+    /* margin-top: 15%; */
+}
+.icondiv{
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+}
+#commas{
+    font-size: 100px;
+    color: gray;
+    font-weight: bolder;
+    
+  }
+.Res7{
+    background-image: url(./Resimg/6-1.jpg);
+width: 100%;
+height: 100%;
+  }
+.Res5{
+    background-image: url(./Resimg/3-2.jpg);
+    width: auto;
+    height: 900px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-bottom: 0px !important;
+
+  }
+
+

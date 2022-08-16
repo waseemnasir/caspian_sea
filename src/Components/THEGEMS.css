@@ -1,0 +1,278 @@
+#ptext2 {
+  width: 60%;
+}
+
+
+
+.IMG {
+  padding: 0;
+
+  margin: 0;
+  margin-top: -130px;
+  /* position: absolute;
+  top: 0; */
+  background-image: url(../imgGems/2-layers-1_mini.jpg);
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-position: center top;
+  
+  /* background-repeat: no-repeat; */
+  /* position: relative; */
+}
+#part1div{
+  margin-top: 48px;
+  padding-top: 200px;
+  
+}
+#benv{
+  font-size: 150px;
+}
+
+.IMGCENTER {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  padding-top: 40px;
+  margin-top: 10%;
+}
+
+#headstyle {
+
+  background-color: #262626;
+  opacity: 0.8;
+  
+  /* margin: 0;
+      padding: 0; */
+  /* justify-content:end;
+      display:flex; */
+
+}
+
+
+
+#logoimg {
+  z-index: 2;
+}
+
+#btnicon {
+  border: #616161;
+}
+
+
+
+#partHeading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffa742;
+  font-family: Herr Von Muellerhoff;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#part2img {
+  background-image: url(../imgGems/1.png);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+}
+
+#part2div {
+  margin: 1px;
+}
+
+/* #part2img2{
+        background-image: url(../imgGems/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+
+#part4img {
+  background-image: url(../imgGems/26.jpg);
+  width: 100%;
+  height: 950px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#part6img {
+  background-image: url(../imgGems/restaurant-parallax-scroller-image.jpg);
+  width: 100%;
+  height: 950px;
+  background-size: cover;
+  background-position: center center;
+  height: 1257.02px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#part7img {
+  background-image: url(../imgGems/3-layers-1_mini_mini.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#part9img {
+  background-image: url(../imgGems/35.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#footer1 {
+  background-color: #424242;
+  color: rgb(238, 242, 246);
+
+  height: 10rem;
+
+}
+
+#footer2 {
+  background-color: #616161;
+  color: rgb(238, 242, 246);
+  height: 100px;
+  padding-top: 50px;
+
+
+}
+
+#part5img1 {
+  background-image: url(../imgGems/29-1.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+#part5img2 {
+  background-image: url(../imgGems/30.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#part9div {
+  /* background-color: azure; */
+  /* margin-left: 0; */
+}
+
+#part8_1 {
+  background-color: azure;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.roundimg {
+  border-radius: 50%;
+
+}
+
+.text1 {
+  font-family: Herr Von Muellerhoff;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#text2 {
+  font-size: 7em;
+}
+
+#p6 {
+  width: 650px;
+}
+
+#part9div {
+  margin: 0;
+  padding: 0;
+}
+
+#fimg1 {
+  width: 60%;
+  padding-left: 10%;
+}
+
+#fimg2 {
+  width: 100%;
+  margin-right: 5rem;
+}
+
+#pizzaimg {
+  width: 100%;
+  height: 400px;
+}
+
+#textwhite1 {
+  color: aliceblue;
+}
+#commas{
+  font-size: 100px;
+  color: #ffa742;
+  font-weight: bolder;
+  
+}
+.underline{
+  text-decoration: underline;
+}
+#roundimg{
+  position: absolute;
+
+    width: 100%;
+    height: 5%;
+    z-index: 1;
+  background-size: cover;
+  background-position: center bottom;
+  box-sizing: border-box;
+}
+#part3div{
+  height: 100%;
+}
+#div3height{
+  height: 10000px;
+}
+.div9{
+  margin: 1rem;
+  padding: 1rem;
+}
+.active{
+  /* border: #ffa742 4px solid;
+  color: #ffa742; */
+
+  border-style: solid;
+  border-color: #ffa742;
+  
+}
