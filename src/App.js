@@ -15,6 +15,7 @@ import Menu from './Components/Menu/Menu';
 import {BrowserRouter ,Route ,Routes} from "react-router-dom"
 import Cart from './Components/Cart/Cart';
 import Errorpage from './Components/NotfoundPage/Errorpage';
+import SignupPage from './SignupPage/SignupPage';
 
 
 
@@ -41,6 +42,8 @@ function App() {
 <Route path="Reservation" element={ <Reservation />} />
 <Route path="Menu" element={ <Menu/>} />
 <Route path="Cart" element={ <Cart/>} />
+<Route path="SignupPage" element={ <SignupPage/>} />
+
 <Route path="*" element={ <Errorpage/>} />
 
 

@@ -268,7 +268,12 @@
   margin: 1rem;
   padding: 1rem;
 }
-.active{
+/* .active{
+  border-style: solid;
+  border-color: #ffa742;
+  
+} */
+.nav-link:focus{
   /* border: #ffa742 4px solid;
   color: #ffa742; */
 

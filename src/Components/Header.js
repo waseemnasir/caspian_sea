@@ -39,11 +39,8 @@ const Header = () => {
         <li className="nav-item">
         <NavLink to="/Cart" className="nav-link text-light fw-bold h5 " href="#">Cart  <FaShoppingCart/> <span className=''></span></NavLink>
         </li>
-        <li className="nav-item ">
-          <a className="nav-link  text-light fw-bold " href="#"  >
-            CONTACT
-          </a>
-          
+        <li className="nav-item">
+        <NavLink to="/SignupPage" className="nav-link text-light fw-bold h5 " href="#">SignupPage  <span className=''></span></NavLink>
         </li>
         <li className="nav-item">
         <button type="submit" className='bg-transparent text-light bd-0' id='btnicon' ><i className=' h3 bg-transparent bd-0 '>  <AiOutlineSearch/>  </i></button>
