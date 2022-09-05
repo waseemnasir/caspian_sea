@@ -79,7 +79,7 @@ const Cart = (Products) => {
                   <div className="cart-product">
                     <img src={cartItem.image} alt={cartItem.name} />
                     <div>
-                      <h3>{cartItem.name}{cartItem.id}</h3>
+                      <h3>{cartItem.name}</h3>
                       <p>{cartItem.desc}</p>
                       <button onClick={() => handleRemoveFromCart(Products)}>
                         Remove
@@ -112,7 +112,7 @@ const Cart = (Products) => {
               <p>Taxes and shipping calculated at checkout</p>
               <button>Check out</button>
               <div className="continue-shopping">
-                <NavLink to="/">
+                <NavLink to="/Menu">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"

@@ -21,9 +21,9 @@ dispatch(addToCart(props.item))
 <div className="card ">
 <div className="card-body">
 <img src={image} alt="images" className="card-media" />
- <h6 className="card-title"> {name} {id} </h6>  
+ <h6 className="card-title"> {name}  </h6>  
 {/* <span className="card-number card-circle subtle">{id}</span> */}
-<span className="card-number  subtle">{price}</span>
+<span className="card-number  subtle">{price} $</span>
 
 <span className="card-author subtle"> {category}</span> 
 {/* <span className="card-description subtle">

@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 #container{
   background-image: url(./images/Sliders_Hero2017-2-2572fa36.jpeg);
   width: 100%;

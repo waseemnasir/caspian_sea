@@ -280,4 +280,16 @@
   border-style: solid;
   border-color: #ffa742;
   
+}.bag-quantity {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  font-weight: 700;
+  margin-left: 5px; */
+  /* border-radius: 50%; */
+  /* font-size: 1.4rem; */
+  /* background: #ffa742; */
+  color: #ffa742;
 }

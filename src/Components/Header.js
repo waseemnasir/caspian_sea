@@ -2,6 +2,9 @@ import React from 'react'
 import { AiOutlineSearch } from "@react-icons/all-files/ai/AiOutlineSearch";
 import { FaShoppingCart } from "@react-icons/all-files/fa/FaShoppingCart";
 
+import { useSelector } from "react-redux";
+
+
 import { Button } from 'bootstrap';
 import "./THEGEMS.css"
 
@@ -11,6 +14,8 @@ import { NavLink } from 'react-router-dom'
 // FaShoppingCart
 
 const Header = () => {
+  const { cartTotalQuantity } = useSelector((state) => state.cart);
+
   return (
     <>
 <nav className="navbar navbar-expand-lg navbar-light container-fluid p-3 fixed-top sticky-top " id='headstyle' >
@@ -37,10 +42,12 @@ const Header = () => {
         <NavLink to="/Reservation" className="nav-link text-light fw-bold " href="#">RESERVATION</NavLink>
         </li>
         <li className="nav-item">
-        <NavLink to="/Cart" className="nav-link text-light fw-bold h5 " href="#">Cart  <FaShoppingCart/> <span className=''></span></NavLink>
+        <NavLink to="/Cart" className="nav-link text-light fw-bold h5 " href="#">Cart  <FaShoppingCart/> <span className="bag-quantity">
+            <span>{cartTotalQuantity}</span>
+          </span></NavLink>
         </li>
         <li className="nav-item">
-        <NavLink to="/SignupPage" className="nav-link text-light fw-bold h5 " href="#">Signup  <span className=''></span></NavLink>
+        <NavLink to="/SignupPage" className="nav-link text-light fw-bold h5 " href="#">Signup </NavLink>
         </li>
         <li className="nav-item">
         <button type="submit" className='bg-transparent text-light bd-0' id='btnicon' ><i className=' h3 bg-transparent bd-0 '>  <AiOutlineSearch/>  </i></button>
